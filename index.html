@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CACAO TALK</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
+        <i class="fas fa-wifi"></i>
         <!-- todo : wifi icon -->
       </div>
       <div class="status-bar__column">
@@ -17,8 +19,29 @@
       </div>
       <div class="status-bar__column">
         <span>56%</span>
-        <!-- todo : bettery icon -->
+        <i class="fas fa-battery-half fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- todo : battery icon -->
       </div>
     </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">코코아톡</h1>
+      <p class="welcome-header__text">
+        코코아톡 이용을위해서 휴대폰 번호와 패스워드를 입력하세요.
+      </p>
+    </header>
+
+    <form action="friends.html" id="login-form">
+      <input type="text" placeholder="phone number" />
+      <input type="password" placeholder="password" />
+      <input type="submit" value="log-in" />
+      <a href="#">계정찾기</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/66642bfc47.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
