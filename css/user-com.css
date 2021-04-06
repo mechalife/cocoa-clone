@@ -1,0 +1,26 @@
+.user-com {
+  display: flex;
+  align-items: center;
+}
+.user-com__coulmn:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-com__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.user-com__title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.user-com__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
