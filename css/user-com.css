@@ -1,6 +1,7 @@
 .user-com {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .user-com__coulmn:first-child {
   display: flex;
@@ -15,7 +16,7 @@
 }
 
 .user-com__title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
 }
 
@@ -23,4 +24,53 @@
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.friends__screen {
+  padding: 20px;
+}
+
+.user-com__channel {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-com__avatar__channel {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.user-com__title__channel {
+  font-weight: 500;
+}
+
+.user-com__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+  margin-bottom: 25px;
+}
+
+.user-compornent__span {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-weight: 500;
+  color: white;
+  margin-left: 10px;
+}
+
+.user-com__time {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
 }

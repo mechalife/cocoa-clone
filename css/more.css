@@ -1,0 +1,32 @@
+.call-image {
+  margin-left: 5px;
+  color: tomato;
+}
+
+.user-more-main {
+  display: flex;
+  justify-content: start;
+  margin-left: 20px;
+}
+
+.more-sub {
+  margin-left: 25px;
+}
+
+.user-more-sugg {
+  border-top: 1px solid rgba(0, 0, 0, 1);
+  margin: 40px 20px 0px 20px;
+  padding-top: 40px;
+}
+
+.user-more-tool {
+  display: flex;
+}
+
+.user-more-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
